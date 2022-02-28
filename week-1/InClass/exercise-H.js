@@ -10,3 +10,5 @@ function distancia (multiply, name, numero) {
 
 const result = distancia(40, " kilometros ", 40 )
 console.log(result);
+
+//este ejercicio mide el tiempo que demora una persona de un punto a otro (dependiendo los kilometros) transportandose a una velocidad de 40k/h.
