@@ -1,3 +1,4 @@
 const name = " Daniel  ";
+let message = "que edad tienes."
 
-console.log(message);
+console.log(name + message);
