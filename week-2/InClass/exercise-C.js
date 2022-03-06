@@ -9,3 +9,10 @@ function numberChecker(num) {
     return `${num} isn't even a number :(`;
   }
 }
+//retorna si es mayor 20
+//retorna si es igual 20
+//retorna si es menor 20
+//retorna si no es un numero
+
+
+console.log (numberChecker("20"))
