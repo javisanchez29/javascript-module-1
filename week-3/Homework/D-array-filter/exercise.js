@@ -7,8 +7,8 @@
 */
 
 var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
+var pairsByIndex = pairsByIndexRaw.filter((pair) => {return pair !== null && pair.length === 2  && typeof pair !== "string" && typeof pair !== "boolean"});
 
-var pairsByIndex = pairsByIndexRaw.filter(group);
 
 function group(name) {
   return typeof name === "object" && name != null && name.length > 1;
